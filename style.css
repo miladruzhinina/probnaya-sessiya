@@ -305,6 +305,8 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   transition: transform var(--transition), opacity var(--transition);
 }
 
+[hidden] { display: none !important; }
+
 .mobile-menu {
   display: flex;
   flex-direction: column;
